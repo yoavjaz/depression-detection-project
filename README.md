@@ -4,6 +4,9 @@ NLP project
 
 This project uses Natural Language Processing (NLP) techniques to detect signs of depression from text. It compares two deep learning models: a Bidirectional LSTM and a BERT-based Transformer model.
 
+## 🛠️ Running the Code Without External Dependencies
+To ensure the project runs independently and without relying on any personal files or external storage (such as Google Drive), the entire code must be executed from start to finish. This includes downloading and preparing the dataset, training the model, saving the weights locally in the checkpoints/ folder, and launching the user interface. By doing so, all required components are generated on the evaluator's local environment, ensuring a fully self-contained and reproducible workflow.
+
 ## 📁 Project Structure
 - `final_project_lstm.ipynb` — Full pipeline for training and predicting with BiLSTM.  
 - `final_project_transformer.ipynb` — Full pipeline for training and predicting with BERT.  
